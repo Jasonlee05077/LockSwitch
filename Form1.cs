@@ -17,7 +17,8 @@ namespace LockSwitch
         private Boolean isNLocked;
         private Boolean isSLocked;
 
-
+        //Constructs the program through checking the initial state of the lock keys
+        //, implementing the UI, and starting the system timer.
         public Form1()
         {
             InitializeComponent();
@@ -36,6 +37,9 @@ namespace LockSwitch
 
         }
 
+        //Checks the state of Num_Lock, Scroll_Lock, and Caps_Lock and notifies
+        //the user when a change has been made. The check occurs everytime the timer
+        //ticks.
         private void timer1_Tick(object sender, EventArgs e)
         {
 
@@ -120,11 +124,26 @@ namespace LockSwitch
 
         }
 
+        //Programmatically presses the Caps_Lock key when button1(Caps_Lock) is clicked
         private void button1_Click(object sender, EventArgs e)
         {
             switchMode(0x14);
         }
 
+        //Programmatically presses the Num_Lock key when button2(Num_Lock) is clicked
+        private void button2_Click(object sender, EventArgs e)
+        {
+            switchMode(0x90);
+        }
+
+        //Programmatically pressed the Scroll_LOck key when button3(Scroll_Lock) is clicked
+        private void button3_Click(object sender, EventArgs e)
+        {
+            switchMode(0x91);
+        }
+
+        //Allows the user to press a key programmatically through inputing the desired 
+        //key in byte form
         private void switchMode(byte key)
         {
             const int KEYEVENTF_EXTENDEDKEY = 0x1;
@@ -146,14 +165,6 @@ namespace LockSwitch
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            switchMode(0x90);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            switchMode(0x91);
-        }
+        
     }
 }
