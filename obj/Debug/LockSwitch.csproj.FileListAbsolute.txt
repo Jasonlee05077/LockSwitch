@@ -1,0 +1,13 @@
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\bin\Debug\Capslock.exe.config
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\bin\Debug\Capslock.exe.manifest
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\bin\Debug\Capslock.application
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\bin\Debug\Capslock.exe
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\bin\Debug\Capslock.pdb
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\LockSwitch.Form1.resources
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\LockSwitch.Properties.Resources.resources
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\LockSwitch.csproj.GenerateResource.Cache
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\Capslock.exe.manifest
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\Capslock.application
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\Capslock.exe
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\Capslock.pdb
+C:\Users\FAE\Documents\Visual Studio 2017\Projects\LockSwitch\LockSwitch\obj\Debug\LockSwitch.csprojResolveAssemblyReference.cache
